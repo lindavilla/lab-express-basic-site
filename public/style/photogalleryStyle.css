@@ -1,5 +1,6 @@
 body {
     background-color: rgb(130, 130, 226);
+    font-family: serif;
 }
 
 nav ul{
@@ -8,17 +9,17 @@ nav ul{
     flex-direction: row;
     color: white;
     list-style: none;
-    padding: 30px 30px;
-    margin: 30px;
+    padding: 25px 30px;
+    margin: 20px;
     border-radius: 10px;
-    border: white solid 10px;
+    border: white solid 9px;
     
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .box:hover {

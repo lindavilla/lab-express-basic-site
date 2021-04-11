@@ -1,5 +1,7 @@
 body {
     background-color: rgb(130, 130, 226);
+    overflow: hidden;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 nav ul{
@@ -8,17 +10,17 @@ nav ul{
     flex-direction: row;
     color: white;
     list-style: none;
-    padding: 30px 30px;
-    margin: 30px;
+    padding: 25px 30px;
+    margin: 20px;
     border-radius: 10px;
-    border: white solid 10px;
+    border: white solid 9px;
     
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .box:hover {
@@ -26,7 +28,9 @@ nav a {
   }
 
 img {
-width:500px
+width:500px;
+
+
 }
 
 .container {
@@ -38,9 +42,7 @@ width:500px
 
 
   h1 {
-      display: flex;
       text-align: center;
-      justify-content: center;
   }
 
   h3 {
@@ -53,12 +55,14 @@ width:500px
     display: flex;
     text-align: center;
     justify-content: center;
+    padding: 5px 15px;
+    text-align: left;
     
   }
 
   .center-text {
     border-radius: 10px;
-    border: white solid 10px;
+    border: white solid 8px;
     width: 600px;
     height: 50%;
     margin-top: 100px;
