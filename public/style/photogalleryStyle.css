@@ -29,4 +29,19 @@ nav a {
 
 img {
  width: 300px;   
+ margin: 20px 20px;
+ margin-bottom: 5px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
